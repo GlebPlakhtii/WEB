@@ -1,5 +1,6 @@
 body{
 	background-color: #666666;
+	
 
 }
 header{
@@ -8,9 +9,10 @@ header{
 	padding: 10px;
 	height: 400px;
 	border: 1px solid black;
-	width: 200px;
+	width: 14%;
 	position: fixed;
 	left: 20px;
+	top:20px;
 
 }
 
@@ -19,9 +21,10 @@ header{
 .logo{
 	background-color: #004d1a;
 	border-radius: 100%;
-	margin: 50px;
+	margin: 30%;
 	margin-top:10px;
 	margin-bottom: 10px;
+	width: 45%;
 	
 }
 .logo:hover{
@@ -40,7 +43,7 @@ header nav a{
 .nav_details{
 	color: #4b0066;
 	margin: 10px;
-	margin-top: 1px;
+	margin-top:1px;
 	font-size:20px;
 
 }
@@ -121,4 +124,21 @@ main p{
 #ipt_photo{
 	float: left;
 	margin:10px;
+}
+
+#adv{
+	display: block;
+	position: absolute;
+	height: 200px;
+	padding: 10px;
+	width: 20%;
+	right: 20px;
+	top:20px;
+	background-color:  #c6f6c6;
+}
+#adv img {
+	width: 130px;
+	position: absolute;
+	right: 32%;
+
 }
